@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ombaa! 🎂</title>
+    <meta name="description" content="A special birthday wish for the most amazing person - Amii (Ombaa)!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Floating particles container -->
+    <div id="particles"></div>
+
+    <!-- ===== SECTION 1: HERO ===== -->
+    <section id="hero" class="section hero">
+        <div class="hero-content">
+            <img src="images/bunny.png" alt="Cute bunny" class="hero-animal-img anime-float">
+            <p class="hero-pre">✨ a little something for ✨</p>
+            <h1 class="hero-title">
+                <span class="name-ombaa">Ombaa</span>
+            </h1>
+            <p class="hero-sub">Happy Birthday, Amii! 🎂</p>
+            <div class="scroll-hint">
+                <span>scroll down</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 2: MESSAGE ===== -->
+    <section id="message" class="section message-section">
+        <div class="container">
+            <img src="images/bear.png" alt="Cute bear" class="message-animal-img anime-float">
+            <h2 class="section-title">💌 a letter for you</h2>
+            <div class="letter-card">
+                <p>Dear Ombaa,</p>
+                <p>Happy Birthday to the most wonderful person I know! 🌸 Every moment with you is a beautiful memory,
+                    and I'm so grateful to have you as my best friend.</p>
+                <p>You make the world a brighter, warmer, and more magical place just by being in it. Here's to another
+                    year of adventures, laughter, and unforgettable moments together!</p>
+                <p>May this year bring you everything your heart desires and more. You deserve all the happiness in the
+                    universe. 🌟</p>
+                <p class="letter-sign">— with love 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 3: GIFT OPENING ===== -->
+    <section id="gift" class="section gift-section">
+        <div class="container">
+            <h2 class="section-title">🎁 a surprise for you</h2>
+            <p class="gift-instruction">tap the gift to unwrap it!</p>
+            <div class="gift-box-wrapper">
+                <div class="gift-box" id="giftBox">
+                    <div class="gift-lid">
+                        <div class="gift-bow">
+                            <div class="bow-loop left"></div>
+                            <div class="bow-loop right"></div>
+                            <div class="bow-knot"></div>
+                        </div>
+                        <div class="lid-box"></div>
+                    </div>
+                    <div class="gift-base">
+                        <div class="gift-ribbon vertical"></div>
+                        <div class="gift-ribbon horizontal"></div>
+                    </div>
+                    <div class="gift-surprise" id="giftSurprise">
+                        <div class="surprise-content">
+                            <div class="surprise-hearts">
+                                <span>💖</span><span>✨</span><span>🌸</span><span>💫</span><span>🦋</span>
+                            </div>
+                            <p class="surprise-text">You are the most precious gift in everyone's life, Ombaa! Never
+                                change! 🌟</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 4: CAKE CUTTING with ALL ANIMALS ===== -->
+    <section id="cake" class="section cake-section">
+        <div class="container">
+            <h2 class="section-title">🎂 time to cut the cake!</h2>
+
+            <!-- San the Cat speech bubble -->
+            <div class="san-speech" id="sanSpeech">
+                <img src="images/cat_san.png" alt="San the cat" class="san-img anime-float">
+                <div class="speech-bubble">
+                    <p>Here's the knife, Ombaa! 🔪✨<br>Swipe down to cut your cake!</p>
+                </div>
+            </div>
+
+            <!-- Cake + Animals Scene -->
+            <div class="cake-scene" id="cakeScene">
+                <!-- Animals around the cake -->
+                <img src="images/bunny.png" alt="Bunny" class="cake-animal animal-left-1 anime-float-delay1">
+                <img src="images/duck.png" alt="Duck" class="cake-animal animal-left-2 anime-float-delay2">
+                <img src="images/frog.png" alt="Frog" class="cake-animal animal-left-3 anime-float-delay3">
+                <img src="images/bear.png" alt="Bear" class="cake-animal animal-right-1 anime-float-delay1">
+                <img src="images/penguin.png" alt="Penguin" class="cake-animal animal-right-2 anime-float-delay2">
+                <img src="images/cat_san.png" alt="San" class="cake-animal animal-right-3 anime-float-delay3">
+
+                <!-- The Cake -->
+                <div class="cake-wrapper" id="cakeWrapper">
+                    <div class="cake" id="cakeElement">
+                        <!-- Candles -->
+                        <div class="candles">
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                        </div>
+                        <!-- Cake body (main piece stays) -->
+                        <div class="cake-body">
+                            <div class="cake-top">
+                                <div class="cake-drip d1"></div>
+                                <div class="cake-drip d2"></div>
+                                <div class="cake-drip d3"></div>
+                                <div class="cake-drip d4"></div>
+                                <div class="cake-drip d5"></div>
+                            </div>
+                            <div class="cake-middle"></div>
+                            <div class="cake-bottom"></div>
+                            <div class="cake-text">Ombaa</div>
+                        </div>
+                        <div class="cake-plate"></div>
+                    </div>
+
+                    <!-- Separated cake slice (hidden until cut) -->
+                    <div class="cake-slice" id="cakeSlice">
+                        <div class="slice-top"></div>
+                        <div class="slice-side"></div>
+                        <div class="slice-front"></div>
+                        <div class="slice-cream-layer"></div>
+                        <div class="slice-cherry">🍒</div>
+                    </div>
+
+                    <!-- Cut line overlay -->
+                    <div class="cut-line" id="cutLine"></div>
+
+                    <!-- Knife cursor -->
+                    <div class="knife-cursor" id="knifeCursor">🔪</div>
+                </div>
+
+                <!-- Instruction -->
+                <div class="cake-instruction" id="cakeInstruction">
+                    <p>✨ swipe down across the cake to cut it! ✨</p>
+                </div>
+
+                <!-- Celebration text -->
+                <div class="cake-celebration" id="cakeCelebration">
+                    <p class="celebration-text">🎉 yayyy! Happy Birthday Ombaa! 🎉</p>
+                    <p class="celebration-sub">here's your slice! 🍰</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 5: ANIMAL WISHES ===== -->
+    <section id="parade" class="section parade-section">
+        <div class="container">
+            <h2 class="section-title">🐾 birthday wishes from your friends</h2>
+            <div class="parade-animals">
+                <div class="parade-animal" data-wish="quack quack! happy bday! 🦆">
+                    <img src="images/duck.png" alt="Duck" class="parade-img">
+                    <div class="parade-wish">quack quack! 🦆<br>happy bday!</div>
+                </div>
+                <div class="parade-animal" data-wish="waddle waddle! hbd! 🐧">
+                    <img src="images/penguin.png" alt="Penguin" class="parade-img">
+                    <div class="parade-wish">waddle waddle! 🐧<br>happy bday!</div>
+                </div>
+                <div class="parade-animal" data-wish="ribbit! best bday ever! 🐸">
+                    <img src="images/frog.png" alt="Frog" class="parade-img">
+                    <div class="parade-wish">ribbit! 🐸<br>best bday ever!</div>
+                </div>
+                <div class="parade-animal" data-wish="meow! love you Ombaa! 🐱">
+                    <img src="images/cat_san.png" alt="San" class="parade-img">
+                    <div class="parade-wish">meow! 🐱<br>love you Ombaa!</div>
+                </div>
+                <div class="parade-animal" data-wish="hop hop! have fun! 🐰">
+                    <img src="images/bunny.png" alt="Bunny" class="parade-img">
+                    <div class="parade-wish">hop hop! 🐰<br>have fun!</div>
+                </div>
+                <div class="parade-animal" data-wish="big bear hug for you! 🐻">
+                    <img src="images/bear.png" alt="Bear" class="parade-img">
+                    <div class="parade-wish">bear hug! 🐻<br>for you!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 6: FINAL WISH ===== -->
+    <section id="final" class="section final-section">
+        <div class="container">
+            <div class="final-animals-row">
+                <img src="images/bunny.png" alt="" class="final-animal-img anime-float-delay1">
+                <img src="images/cat_san.png" alt="" class="final-animal-img anime-float-delay2">
+                <img src="images/bear.png" alt="" class="final-animal-img anime-float-delay3">
+            </div>
+            <h2 class="final-title">Happy Birthday<br><span class="name-ombaa-final">Ombaa!</span></h2>
+            <p class="final-sub">wishing you the most magical year ahead 🌙✨</p>
+            <div class="final-heart">💖</div>
+            <div class="final-animals-row bottom-row">
+                <img src="images/duck.png" alt="" class="final-animal-img anime-float-delay2">
+                <img src="images/penguin.png" alt="" class="final-animal-img anime-float-delay1">
+                <img src="images/frog.png" alt="" class="final-animal-img anime-float-delay3">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
